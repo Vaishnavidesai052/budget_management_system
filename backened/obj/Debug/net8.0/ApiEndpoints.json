@@ -1,0 +1,226 @@
+[
+  {
+    "ContainingType": "BudgetManagementSystemNew.Controllers.BudgetItemController",
+    "Method": "CreateBudgetItem",
+    "RelativePath": "api/BudgetItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "budgetItem",
+        "Type": "BudgetManagementSystemNew.Model.BudgetItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BudgetManagementSystemNew.Controllers.BudgetItemController",
+    "Method": "GetBudgetItems",
+    "RelativePath": "api/BudgetItem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BudgetManagementSystemNew.Model.BudgetItem, BudgetManagementSystemNew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BudgetManagementSystemNew.Controllers.BudgetItemController",
+    "Method": "GetBudgetItemById",
+    "RelativePath": "api/BudgetItem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BudgetManagementSystemNew.Model.BudgetItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BudgetManagementSystemNew.Controllers.BudgetItemController",
+    "Method": "DeleteBudgetItem",
+    "RelativePath": "api/BudgetItem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BudgetManagementSystemNew.Controllers.BudgetItemController",
+    "Method": "UpdateBudgetItem",
+    "RelativePath": "api/BudgetItem/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "budgetItem",
+        "Type": "BudgetManagementSystemNew.Model.BudgetItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MonthlyEstimationController",
+    "Method": "GetMonthlyEstimations",
+    "RelativePath": "api/MonthlyEstimation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BudgetManagementSystemNew.Model.MonthlyEstimation, BudgetManagementSystemNew, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MonthlyEstimationController",
+    "Method": "PostMonthlyEstimation",
+    "RelativePath": "api/MonthlyEstimation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estimation",
+        "Type": "BudgetManagementSystemNew.Model.MonthlyEstimation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BudgetManagementSystemNew.Model.MonthlyEstimation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MonthlyEstimationController",
+    "Method": "GetMonthlyEstimation",
+    "RelativePath": "api/MonthlyEstimation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BudgetManagementSystemNew.Model.MonthlyEstimation",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MonthlyEstimationController",
+    "Method": "PutMonthlyEstimation",
+    "RelativePath": "api/MonthlyEstimation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "estimation",
+        "Type": "BudgetManagementSystemNew.Model.MonthlyEstimation",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MonthlyEstimationController",
+    "Method": "DeleteMonthlyEstimation",
+    "RelativePath": "api/MonthlyEstimation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_2",
+    "RelativePath": "test-db",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
